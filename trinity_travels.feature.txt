@@ -1,0 +1,6 @@
+Feature: AI Seat Recommendation
+
+  Scenario: AI recommends window seat
+    Given I prefer window seats
+    When the AI analyzes available seats
+    Then the system recommends a seat with window view

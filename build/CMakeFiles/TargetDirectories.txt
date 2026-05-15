@@ -1,0 +1,3 @@
+C:/Users/BALUKU/trinity-travels-booking/build/CMakeFiles/step_runner.dir
+C:/Users/BALUKU/trinity-travels-booking/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/BALUKU/trinity-travels-booking/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^C:\USERS\BALUKU\TRINITY-TRAVELS-BOOKING\BUILD\CMAKEFILES\D740C58AD16518AE4855ABE207DF3A7A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/BALUKU/trinity-travels-booking -BC:/Users/BALUKU/trinity-travels-booking/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/BALUKU/trinity-travels-booking/build/TrinityTravels.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
